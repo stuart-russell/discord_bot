@@ -23,6 +23,7 @@ $ git clone https://github.com/srussell91/discord_bot.git
 $ cd discord-bot
 $ docker build --build-arg anchorman_url=<url> --build-arg discord_token=<token> -t discord-bot .
 $ docker run --rm -it discord-bot
+$ // Optional parameter --network="host" will allow the bot to reach other containers running on the same network as localhost
 ```
 
 ---
